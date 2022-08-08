@@ -8,6 +8,7 @@ function Movie({movieCd,rankOldAndNew,rank,openDt,movieNm}){
     <h2>
     영화 제목 : <Link to={`/movie/${movieCd}`}>{movieNm}</Link>
     </h2>
+    <hr></hr>
 </div>;
 }
 
